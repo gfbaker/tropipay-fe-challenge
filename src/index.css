@@ -7,16 +7,12 @@
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
 	background-color: #242424;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
 }
 
 
 body {
 	width: 100%;
-	min-height: 100vh;
-	flex-direction: column;
+	height: 100%;
 	place-items: center;
 	background-color: white;
 }
@@ -34,6 +30,10 @@ nav {
 	background-color: #ffe549;
 	width: 100%;
 	opacity: 80%;
+}
+
+.col .row{
+margin-right: 0px;
 }
 
 .search {
