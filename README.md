@@ -32,6 +32,6 @@ Con Axios fue con la herramienta que más logré avanzar. Opté por axios antes 
 
 ## Conclusión
 
-Elegí el challenge Front End cuando interpreté la consigna como la mejor opción para encarar, en el camino me encontré con que el diagrama de la información disponible de usuarios/repositorios/archivos en la API de Github me resultó difícil de manipular para lograr finalmente el "explorador" de carpetas y archivos. Con más tiempo intentaré igual resolverlo 😌
+Elegí el challenge Front End cuando interpreté la consigna como la mejor opción para encarar, en el camino me encontré con que el diagrama de la información disponible de usuarios/repositorios/archivos en la API de Github me resultó difícil de manipular para lograr finalmente el "explorador" de carpetas y archivos. Estoy agradecido igual con la oportunidad y con haberlo intentado, con más tiempo intentaré resolverlo 😌
 
 Guillermo Baker.
