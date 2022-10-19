@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-    <Footer />
-  </React.StrictMode>
+	<React.StrictMode>
+		<App />
+		<Footer />
+	</React.StrictMode>
 );

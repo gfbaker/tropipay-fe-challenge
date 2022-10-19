@@ -1,4 +1,4 @@
-    let [tree, setTree] = useState([]);
+let [tree, setTree] = useState([]);
 
 let [fileNames, setFileNames] = useState([]);
 

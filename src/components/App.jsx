@@ -4,18 +4,21 @@ import { getRepos } from "../services/repos";
 import M from "materialize-css";
 
 export default function App() {
+	//hook para inicializar los componentes dinámicos de Materialize
 	useEffect(() => {
 		M.AutoInit();
-	});
+	},);
 
 	let [userSearch, setUserSearch] = useState("");
 	let [userData, setUserData] = useState("");
 	let [repoData, setRepoData] = useState([]);
 
+	//guardamos la variable del search
 	const inputHandler = (e) => {
 		setUserSearch(e.target.value);
 	};
 
+	//funciones y llamadas que se ejecutan en el submit del form
 	const submitHandler = async (e) => {
 		e.preventDefault();
 		const user = await getUsers(userSearch);
@@ -28,28 +31,26 @@ export default function App() {
 	return (
 		<>
 			<header className="col s12">
-				<div className="container col s12">
 					<div className="row col s12">
-							<nav>
-								<div className="nav-wrapper col s12">
-									<form onSubmit={submitHandler}>
-										<div className="input-field">
-											<input
-												id="search"
-												type="search"
-												required
-												onChange={inputHandler}
-											/>
-											<label className="label-icon" htmlFor="search">
-												<i className="material-icons">search for a user</i>
-											</label>
-											<i className="material-icons">close</i>
-										</div>
-									</form>
-								</div>
-							</nav>
+						<nav>
+							<div className="nav-wrapper col s12">
+								<form onSubmit={submitHandler}>
+									<div className="input-field">
+										<input
+											id="search"
+											type="search"
+											required
+											onChange={inputHandler}
+										/>
+										<label className="label-icon" htmlFor="search">
+											<i className="material-icons">search for a user</i>
+										</label>
+										<i className="material-icons">close</i>
+									</div>
+								</form>
+							</div>
+						</nav>
 					</div>
-				</div>
 			</header>
 			<main>
 				{userData ? (
@@ -59,16 +60,16 @@ export default function App() {
 						</div>
 						<div className="card-content">
 							<span className="card-title activator grey-text text-darken-4">
-								<i className="small material-icons">person_outline</i>
+              <i className="material-icons right"></i>
+								{/* <i className="small material-icons">person_outline</i> */}
 								{userData.login}
-								<i className="material-icons right"></i>
 							</span>
-							<p className="black-text">
-								<i className="small material-icons">archive</i>
+							<span className="black-text">
+								{/* <i className="small material-icons">archive</i> */}
 								number of repos: {userData.public_repos}
-							</p>
+							</span>
 							<div className="black-text">
-								<i className="small material-icons">person</i>
+								{/* <i className="small material-icons">person</i> */}
 								followers: {userData.followers}
 							</div>
 						</div>
