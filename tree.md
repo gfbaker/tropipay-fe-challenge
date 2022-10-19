@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 let [tree, setTree] = useState([]);
+=======
+# Codigo con el que intenté con Axios traer el contenido de API Github
+>>>>>>> 00f1311b0ecceb40820fc33b9d929cf1652d7b53
 
+let [tree, setTree] = useState([]);
 let [fileNames, setFileNames] = useState([]);
 
 async function start() {
