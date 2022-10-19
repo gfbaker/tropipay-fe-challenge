@@ -1,4 +1,4 @@
-# Codigo con el que intente con Axios traer el contenido de API Github
+# Codigo con el que intenté con Axios traer el contenido de API Github
 
 let [tree, setTree] = useState([]);
 let [fileNames, setFileNames] = useState([]);
