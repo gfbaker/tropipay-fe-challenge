@@ -20,7 +20,7 @@ Para traer la información de la API de github intenté utilizar 3 opciones:
 
 **_Octokit_**
 
-Octokit resultó ser en primera instancia la mejor opción. Dentro de la documentación de API Github es la herramienta más preparada y documentada. Sin embargo, tuve multiples inconvenientes de compatibilidad con mi proyecto durante la compilación que no me dejo utilizar la librería.
+Octokit resultó ser en primera instancia la mejor opción. Dentro de la documentación de API Github es la herramienta más preparada y documentada. Sin embargo, tuve multiples errores de compatibilidad con mi proyecto durante la compilación que no me dejo utilizar la librería.
 
 **_GraphQL_**
 
