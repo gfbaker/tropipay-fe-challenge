@@ -1,6 +1,6 @@
 # Desafío TROPIPAY
 
-### El desafío que elegí fue el Frontend Challenge con la siguiente consigna: 
+### El desafío que elegí fue el Frontend Challenge con la siguiente consigna:
 
 <img width="745" alt="Captura de Pantalla 2022-10-19 a la(s) 11 07 27" src="https://user-images.githubusercontent.com/90215734/196714515-654373e4-8dfb-4c73-8407-24d2b5653345.png">
 
