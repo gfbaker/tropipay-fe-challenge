@@ -1,6 +1,6 @@
 # Desafío TROPIPAY
 
-### El desafío que elegí fue el Frontend Challenge con la siguiente consigna: 
+### El desafío que elegí fue el Frontend Challenge con la siguiente consigna:
 
 <img width="745" alt="Captura de Pantalla 2022-10-19 a la(s) 11 07 27" src="https://user-images.githubusercontent.com/90215734/196714515-654373e4-8dfb-4c73-8407-24d2b5653345.png">
 
@@ -35,3 +35,7 @@ Con Axios fue con la herramienta que más logré avanzar. Opté por axios antes 
 Elegí el challenge Front End cuando interpreté la consigna como la mejor opción para encarar, en el camino me encontré con que el diagrama de la información disponible de usuarios/repositorios/archivos en la API de Github me resultó difícil de manipular para lograr finalmente el "explorador" de carpetas y archivos. Estoy agradecido igual con la oportunidad y con haberlo intentado, con más tiempo intentaré resolverlo 😌
 
 Guillermo Baker.
+
+# RUN
+
+npm run dev
