@@ -36,7 +36,7 @@ export default function App() {
 					</nav>
 				</div>
 			</header>
-			{/* Enviamos la variable con la busqueda el component card */}
+			{/* Enviamos la variable con la busqueda al component card */}
 			<Card userName={user} />
 		</>
 	);
