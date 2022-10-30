@@ -42,7 +42,11 @@ Guillermo Baker.
 
 <ul>
   <li>Separar funciones del código en más componentes</li>
-  <li>Ajustar algunos detalles de estilos: agregué @media queries para personalizar más la vista según el dispositivo</li>
+  <li>Ajustar algunos detalles de estilos: </li>
+      <ul style="list-style-type: circle">
+        <li>hola</li>
+        <li></li>
+  </ul>
 </ul>
 
 # RUN
