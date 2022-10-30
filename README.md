@@ -36,6 +36,15 @@ Elegí el challenge Front End cuando interpreté la consigna como la mejor opci�
 
 Guillermo Baker.
 
+# Actualización
+
+### Luego del meeting con Rubén, decidí personalmente usar sus observaciones para hacer algunas modificaciones en el código!
+
+<ul>
+  <li>Separar funciones del código en más componentes</li>
+  <li>Ajustar algunos detalles de estilos: agregué @media queries para personalizar más la vista según el dispositivo</li>
+</ul>
+
 # RUN
 
 Installar dependencias:
