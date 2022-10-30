@@ -44,7 +44,7 @@ Guillermo Baker.
   <li>Separar funciones del código en más componentes</li>
   <li>Ajustar algunos detalles de estilos: </li>
       <ul style="list-style-type: circle">
-        <li>Corregir los margenes de título y párrafos</li>
+        <li>Corregir los márgenes de título y párrafos</li>
         <li>Agregué @media queries para adaptar mejor la visualización según el dispositivo</li>
   </ul>
   <li>Ordenar y limpiar mejor el código </li>
