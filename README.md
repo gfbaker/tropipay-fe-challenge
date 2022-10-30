@@ -39,7 +39,3 @@ Guillermo Baker.
 # RUN
 
 npm run dev
-
-### Vercel Deploy:
-
-https://tropipay-fe-challenge-gfbaker.vercel.app/
