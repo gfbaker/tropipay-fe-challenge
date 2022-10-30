@@ -53,10 +53,10 @@ Guillermo Baker.
 
 # RUN
 
-Installar dependencias:
+<b>Installar dependencias:</b>
 npm install
 
-Run:
+<b>Run:</b>
 npm run dev
 
 ### Vercel Deploy:
