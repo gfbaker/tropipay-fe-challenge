@@ -1,6 +1,6 @@
 import { ajax } from "../tools/ajax";
 
-//pasamos la información de la busqueda del cliente para traer el usuario de Github
+//obtenemos los datos del perfil del usuario
 export const getUsers = async (userName) => {
 	const optionsRequest = {
 		method: "GET",

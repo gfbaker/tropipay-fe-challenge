@@ -4,12 +4,15 @@ import { getRepos } from "../services/repos";
 import M from "materialize-css";
 
 export default function Repo({ userRepository }) {
+
 	const [userRepo, setUserRepo] = useState([]);
 
+    //inicializamos los componentes de JavaScript para Materialize
 	useEffect(() => {
 		M.AutoInit();
 	});
 
+    //llamada async que se ejecuta cuando los datos de la busqueda cambian
 	useEffect(() => {
 		(async () => {
 			setUserRepo(await getRepos(userRepository));

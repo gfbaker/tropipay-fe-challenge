@@ -48,6 +48,7 @@ Guillermo Baker.
         <li>Agregué @media queries para adaptar mejor la visualización según el dispositivo</li>
   </ul>
   <li>Ordenar y limpiar mejor el código </li>
+  <li>Genero un deploy utilizando Vercel para visualizar el proyecto </li>
 </ul>
 
 # RUN

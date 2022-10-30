@@ -3,8 +3,10 @@ import { getUsers } from "../services/users";
 import Card from "./Card";
 
 export default function App() {
+	//variable donde se almacena la busqueda del cliente
 	const [user, setUser] = useState("");
 
+	//llamada async para obtener datos del perfil del usuario
 	const appToCard = async (login) => {
 		setUser(await getUsers(login));
 	};
@@ -34,6 +36,7 @@ export default function App() {
 					</nav>
 				</div>
 			</header>
+			{/* Enviamos la variable con la busqueda el component card */}
 			<Card userName={user} />
 		</>
 	);

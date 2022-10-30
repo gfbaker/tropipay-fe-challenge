@@ -1,6 +1,7 @@
 import React from "react";
 import Repo from "../components/Repo";
 
+//
 export default function Card({ userName }) {
 	return (
 		<>
@@ -28,6 +29,7 @@ export default function Card({ userName }) {
 									{userName.name}
 									<i className="material-icons right">close</i>
 								</span>
+                                {/* Enviamos el nombre del repositorio al component Repo */}
 								<Repo userRepository={userName.login} />
 							</div>
 						</div>

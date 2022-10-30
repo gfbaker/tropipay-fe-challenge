@@ -1,6 +1,6 @@
 import { ajax } from "../tools/ajax";
 
-//traigo los repositorios del usuario
+//obtenemos los datos del repositorio
 export const getRepos = async (userRepository) => {
 	const optionsRequest = {
 		method: "GET",
