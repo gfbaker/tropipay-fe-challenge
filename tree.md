@@ -42,3 +42,21 @@ tree = tree.concat(subTree);
 fileNames.push(firstObjectOfTree.path);
 }
 }
+
+
+
+{repoData.map((repo) => {
+								return (
+									<ul className="collapsible" key={repo.id}>
+										<li>
+											<div className="collapsible-header">
+												<i className="material-icons">expand_more</i>
+												<p>{repo.name}</p>
+											</div>
+											<div className="collapsible-body">
+												<a href={repo.clone_url}>{repo.description}</a>
+											</div>
+										</li>
+									</ul>
+								);
+							})}

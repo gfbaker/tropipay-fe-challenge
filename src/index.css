@@ -9,7 +9,6 @@
 	background-color: #242424;
 }
 
-
 body {
 	width: 100%;
 	height: 100%;
@@ -32,8 +31,8 @@ nav {
 	opacity: 80%;
 }
 
-.col .row{
-margin-right: 0px;
+.col .row {
+	margin-right: 0px;
 }
 
 .search {
@@ -63,11 +62,17 @@ p {
 	width: 50%;
 	border-radius: 10px;
 	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .img {
 	width: 50%;
 	float: right;
+}
+
+.collapsible {
+	margin: 0.5rem 0px -9px 0;
+
 }
 
 .collapsible-header {
@@ -119,7 +124,15 @@ button:focus-visible {
 	border-bottom: #000;
 	margin-left: auto;
 	border-bottom: 1px solid black;
+}
 
+.card .card-reveal .card-title {
+	margin-bottom: 15px;
+}
+
+i.right {
+	float: right;
+	margin-left: auto;
 }
 
 .page-footer {
@@ -130,6 +143,7 @@ button:focus-visible {
 	left: 0;
 	bottom: 0;
 	right: 0;
+	padding: 0px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -142,5 +156,27 @@ button:focus-visible {
 	}
 	button {
 		background-color: #f9f9f9;
+	}
+}
+@media screen and (max-width: 600px) {
+	.collapsible-header {
+		text-overflow: clip;
+		overflow: auto;
+		padding: 23px;
+	}
+
+	.collapsible-header p {
+		display: block;
+		text-overflow: clip;
+		overflow: auto;
+	}
+}
+
+@media screen and (max-width: 582px) {
+	.card {
+		width: 80vw;
+		border-radius: 10px;
+		margin-right: 10%;
+		margin-left: 10%;
 	}
 }
