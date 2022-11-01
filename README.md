@@ -36,9 +36,11 @@ Elegí el challenge Front End cuando interpreté la consigna como la mejor opci�
 
 Guillermo Baker.
 
-# Actualización
+## Actualización (última actualización: 01/11/2022
 
 ### Luego del meeting con Rubén, decidí personalmente usar sus observaciones para hacer algunas modificaciones en el código!
+
+Versión 1.2
 
 <ul>
   <li>Separar funciones del código en más componentes</li>
@@ -49,6 +51,15 @@ Guillermo Baker.
   </ul>
   <li>Ordenar y limpiar mejor el código </li>
   <li>Genero un deploy utilizando Vercel para visualizar el proyecto </li>
+</ul>
+
+Versión 1.3
+
+Sigo avanzando en el desafío del Challenge. 
+
+<ul>
+  <li>Remuevo los métodos que estaban en el Submit del Form, y los agregos directamente con la función "appToCard"</li>
+  <li>Creo el componente Tree, que llama a un método tree.js para obtener los resultado de un repositorio</li>
 </ul>
 
 # RUN
