@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { getRepos } from "../services/repos";
+import Tree from '../components/Tree'
 import M from "materialize-css";
 
 export default function Repo({ userRepository }) {
@@ -36,6 +37,7 @@ export default function Repo({ userRepository }) {
 					</ul>
 				);
 			})}
+            <Tree userName={userRepository} />
 		</div>
 	);
 }
