@@ -7,7 +7,7 @@ export default function Card({ userName }) {
 		<>
 			{
 				<main>
-					{ userName ? (
+					{userName ? (
 						<div className="card col s12">
 							<div className="card-image waves-effect waves-block waves-light">
 								<img className="activator" src={userName.avatar_url} />
@@ -30,7 +30,7 @@ export default function Card({ userName }) {
 									<i className="material-icons right">close</i>
 								</span>
 								{/* Enviamos el nombre del repositorio al component Repo */}
-								<Repo userRepository={userName.login} />
+								<Repo userRepository={userName} />
 							</div>
 						</div>
 					) : (

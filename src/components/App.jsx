@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { getUsers } from "../services/users";
 import Card from "./Card";
+import Search from './Search'
+import Repo from "../components/Repo";
 
 export default function App() {
 	//variable donde se almacena la busqueda del cliente
 	const [user, setUser] = useState("");
 
 	//llamada async para obtener datos del perfil del usuario
-	const appToCard = async (e) => {
+	const handleSearch  = async (e) => {
 		e.preventDefault();
 		const login = e.target.search.value;
 		setUser(await getUsers(login));
@@ -15,26 +17,9 @@ export default function App() {
 	};
 	return (
 		<>
-			<header className="col s12">
-				<div className="row col s12">
-					<nav>
-						<div className="nav-wrapper col s12">
-							<form onSubmit={appToCard}
-							>
-								<div className="input-field">
-									<input id="search" type="search" name="search" required />
-									<label className="label-icon" htmlFor="search">
-										<i className="material-icons">search for a user</i>
-									</label>
-									<i className="material-icons">close</i>
-								</div>
-							</form>
-						</div>
-					</nav>
-				</div>
-			</header>
-			{/* Enviamos la variable con la busqueda al component card */}
+			<Search handleSearch={handleSearch} />
 			<Card userName={user} />
+			<Repo userName={user.login} />
 		</>
 	);
 }
