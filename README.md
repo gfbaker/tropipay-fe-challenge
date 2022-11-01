@@ -36,7 +36,7 @@ Elegí el challenge Front End cuando interpreté la consigna como la mejor opci�
 
 Guillermo Baker.
 
-## Actualización (última actualización: 01/11/2022
+## Actualización (última actualización: 01/11/2022)
 
 ### Luego del meeting con Rubén, decidí personalmente usar sus observaciones para hacer algunas modificaciones en el código!
 
