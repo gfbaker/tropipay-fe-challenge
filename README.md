@@ -40,7 +40,7 @@ Guillermo Baker.
 
 ### Luego del meeting con Rubén, decidí personalmente usar sus observaciones para hacer algunas modificaciones en el código!
 
-Versión 1.2
+<i>Versión 1.2</i>
 
 <ul>
   <li>Separar funciones del código en más componentes</li>
@@ -53,7 +53,7 @@ Versión 1.2
   <li>Genero un deploy utilizando Vercel para visualizar el proyecto </li>
 </ul>
 
-Versión 1.3
+<i>Versión 1.3</i>
 
 Sigo avanzando en el desafío del Challenge. 
 
