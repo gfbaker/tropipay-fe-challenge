@@ -64,7 +64,7 @@ Sigo avanzando en el desafío del Challenge.
 
 <i>Versión 1.5</i>
 <ul>
-  <li>Creo un nuevo componente "Search" donde coloque el código del searchbar, que se ejecuta cuando se llama a un handleEvent desde el componente padre.</li>
+  <li>Creo un nuevo componente "Search" donde coloque el código del searchBar, que se ejecuta cuando se llama a un handleEvent desde el componente padre, App.jsx</li>
 </ul>
 
 # RUN
