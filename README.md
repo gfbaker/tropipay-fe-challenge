@@ -38,7 +38,7 @@ Guillermo Baker.
 
 ## Actualización (última actualización: 01/11/2022)
 
-### Luego del meeting con Rubén, decidí personalmente usar sus observaciones para hacer algunas modificaciones en el código!
+### Decidí continuar actualizando el código del challenge como desafío personal, corrigiendo, limpiando y mejorando mi código.
 
 <i>Versión 1.2</i>
 
@@ -59,7 +59,12 @@ Sigo avanzando en el desafío del Challenge.
 
 <ul>
   <li>Remuevo los métodos que estaban en el Submit del Form, y los agregos directamente con la función "appToCard"</li>
-  <li>Creo el componente Tree, que llama a un método tree.js para obtener los resultado de un repositorio</li>
+  <li>Creo el componente Tree, que llama a un método tree.js para obtener los resultado de un repositorio. De momento el nombre del repositorio esta harcodeado</li>
+</ul>
+
+<i>Versión 1.5</i>
+<ul>
+  <li>Creo un nuevo componente "Search" donde coloque el código del searchbar, que se ejecuta cuando se llama a un handleEvent desde el componente padre.</li>
 </ul>
 
 # RUN
