@@ -5,7 +5,6 @@ import Tree from '../components/Tree'
 import M from "materialize-css";
 
 export default function Repo({ userRepository }) {
-    console.log(userRepository)
 
 	const [userRepo, setUserRepo] = useState([]);
 
@@ -17,7 +16,7 @@ export default function Repo({ userRepository }) {
     //llamada async que se ejecuta cuando los datos de la busqueda cambian
 	useEffect(() => {
 		(async () => {
-			setUserRepo(await getRepos(userRepository.login));
+			setUserRepo(await getRepos(userRepository));
 		})();
 	}, [userRepository]);
 

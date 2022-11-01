@@ -30,7 +30,7 @@ export default function Card({ userName }) {
 									<i className="material-icons right">close</i>
 								</span>
 								{/* Enviamos el nombre del repositorio al component Repo */}
-								<Repo userRepository={userName} />
+								<Repo userRepository={userName.login} />
 							</div>
 						</div>
 					) : (
